@@ -158,7 +158,8 @@ def manual_testing(news):
   pred_DT= DT.predict(new_xv_test)
   pred_GD= GD.predict(new_xv_test)
   pred_RF= RF.predict(new_xv_test)
-  return print("\n\nLR Prediction: {} \nDT Prediction: {} \nGBC Prediction: {} \nRFC Prediction: {}" .format(output)
+  return print("\n\nLR Prediction: {} \nDT Prediction: {} \nGBC Prediction: {} \nRFC Prediction: {}" .format(output))
+
 
 def output_label(n):
     if n == 0:
