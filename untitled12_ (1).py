@@ -227,7 +227,6 @@ def manual_testing(news):
     st.write("GBC Prediction:", output3)
     st.write("RFC Prediction:", output4)
 
-!pip install streamlit
 
 import streamlit as st
 def manual_testing(news):
